@@ -1,0 +1,275 @@
+﻿body {
+    direction:rtl;
+    color:white;
+    background-color:black;
+    font-family:Bokertov;
+    text-align:center;
+        font-size:20px
+}
+.a{
+    padding-top:50px;
+}
+/*.b{
+    width:125px;
+    height:100px;
+    padding-right:20px;
+
+
+
+
+}*/
+
+    .b:hover {
+        /*background-color: #ddd;*/
+    }
+
+    .b.active {
+        background-color: #666;
+        color: white;
+    }
+
+
+/*חדש*/
+
+
+    .b:hover{
+        animation: shake 4s;
+        animation-iteration-count: infinite;
+    }
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    /* Full height */
+    height: 80%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Images used */
+.img1 {
+    background-image: url('../image/g_0009_Layer-5.jpg');
+}
+
+.img2 {
+    background-image: url('../image/g_0010_Layer-4.jpg');
+  
+}
+
+.img3 {
+    background-image: url("img_lights.jpg");
+}
+
+.img4 {
+    background-image: url("img_nature.jpg");
+}
+
+.img5 {
+    background-image: url("img_forest.jpg");
+}
+
+.img6 {
+    background-image: url("img_woods.jpg");
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    padding-right:200px;
+    /*background-color: rgb(0,0,0); /* Fallback color */
+    /*background-color: rgba(0,0,0, 0.4);*/ /* Black w/opacity/see-through */*/
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    /*border: 10px solid #f1f1f1;*/
+   position:fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+}
+.b {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    /*left: 10%;*/
+    cursor: pointer;
+}
+#jj {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#wow {
+    background-color: #000033;
+    text-align: center;
+    height: 100px;
+    color: aliceblue;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+    .column img {
+       
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+       
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+/*.sara {
+    border:5px solid white;
+}*/
+
+
+/*.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cont:hover .image {
+    opacity: 0.3;
+}
+
+.cont:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: aliceblue;
+    color: #02005f;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+
+
+
+
+.cont {
+    position: relative;
+    border-radius: 5px;
+}*/
+
+.sara:hover  {
+    opacity: 0.3;
+}
+

@@ -1,0 +1,24 @@
+﻿body {
+    direction: rtl;
+    color: white;
+    background-color: black;
+    font-family: Bokertov;
+    text-align: center;
+    font-size: 20px
+}
+.container {
+    padding-right: 150px;
+    padding-left:150px;
+    padding-top:430px;
+}
+.btn btn-primary
+{background-color:red;
+}
+label {direction:rtl;
+}
+
+
+#jj{
+position: fixed;
+top: 0;
+width: 100%;}

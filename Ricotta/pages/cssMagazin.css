@@ -1,0 +1,74 @@
+﻿body {
+   
+
+
+    background-image: url(logo-01.gif);
+    direction: rtl;
+    background-color: black;
+    font-family:Bokertov;
+}
+
+p {
+    /*direction: rtl;*/
+    color: whitesmoke;
+  
+}
+
+p1 {
+    /*direction: rtl;*/
+    color: wheat;
+   /*font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;*/
+}
+   
+
+p1{
+   width:50px;
+   height:50px;
+   
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+body {
+    direction: rtl;
+    color: white;
+    background-color: black;
+    font-family: Bokertov;
+    text-align: center;
+    font-size: 20px
+}
+
+.container {
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 430px;
+}
+
+.btn btn-primary {
+    background-color: red;
+}
+
+label {
+    direction: rtl;
+}
+
+
+#jj {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sco{
+   /* padding:20px;*/
+    margin:100px;
+}
+.b{
+    text-align:right;
+    margin:100px;
+}
